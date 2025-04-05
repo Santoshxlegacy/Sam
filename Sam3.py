@@ -192,7 +192,7 @@ async def run_attack(chat_id, ip, port, duration, context):
     attack_in_progress = True
 
     try:
-        command = f"./vpsbest {ip} {port} {duration} {19} {980}"
+        command = f"./vpsbest {ip} {port} {duration} {16} {978}"
         process = await asyncio.create_subprocess_shell(
             command,
             stdout=asyncio.subprocess.PIPE,
